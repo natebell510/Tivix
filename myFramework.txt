@@ -1,0 +1,32 @@
+My framework:
+ to test WebBased Software I use Selenium WebDriver and Java Language.
+I work in BDD framework, so tool is Cucumber
+ ->In addition I use Junit and its Assertions. To set up necessary dependencies I use pom.xml file which is project
+ object model.
+ One of the best practices to reuse web element is to create POM (pages) is Page Object Model.
+ ->To use single instance of WebDriver I use Singleton pattern. where private constructor and private static WebDriver
+ are declared and getDriver method is used. Singleton is useful since it represent single and unique session.
+->To avoid hardcoding I use .properties file and Class to read .properties file. it is a file where I store sensitive
+test data like env, credentials, settings.
+-> Must is Utilities package, it serves a role of reusable methods for tables and repetitive actions that can occur
+during testing. Since some actions can be repeated along different test scenarios.
+-> WebDriverWait class helps to achieve proper synchronization with my test scripts.
+-> What are dependencies are jar file that have necessary class and info to run tests, compile code.
+-> Target can store generated test cases, html reports after each run.
+
+Project:
+  src->
+  test->
+     java->
+         com.projectName:
+            -runners
+            -step_defs
+            -utilities
+            -pages
+     resources-> Features packages to store .feature files with Scenarios
+     .gitignore-> to ignore files that are not needed to be committed
+     config.properties - to store credentials
+     jenkins for Jenkins pipeline
+     pom.xml - to store project object model and dependencies
+
+

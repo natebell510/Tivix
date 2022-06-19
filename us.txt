@@ -1,0 +1,12 @@
+QA Recruitment Task
+1. Create 3 different test cases on the http://qalab.pl.tivixlabs.com/
+2. Based on created test cases, please write automated E2E tests (preferably using
+Cypress + BDD, you can publish them to your Github account).
+3. Please test the app: http://qalab.pl.tivixlabs.com/ . If you find any bugs (surely, you will ;))
+please report them. Basic assumptions:
+● a user should be able to search for a car in a specific country/city,
+● to rent a car, the user needs to provide dates,
+● the user should be able to see car details after clicking "Rent” button,
+● the user should be able to provide personal data in the rent form,
+● find as many bugs as you can.
+In case of any questions, use your best common sense.
