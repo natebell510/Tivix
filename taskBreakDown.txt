@@ -1,0 +1,23 @@
+Technical Task breakdown
+Project Information:
+-	HTML page with text inputs, buttons, plain white background.
+-	This page was made to test the understanding and capabilities of potential automation engineer candidates.
+-	Requirement is to use Selenium/Cypress BDD based framework.
+-	Write sample tests to complete the objectives outlined in the tests.
+-	Task includes 3 test cases to complete.
+Steps to execute:
+1.	Collect and validate task requirements, understand test criteria and page structure
+2.	Test planning:
+2.1.	Design test cases and estimate task complexity (Fibonacci)
+2.2.	Prepare testing framework based on Selenium/Java/Cucumber/JUnit
+2.3.	Create Maven Project, add dependencies, package structure
+2.4.	Create public GitHub repository and separate QA branch
+3.	Test execution:
+3.1.	Perform manual testing prior to automation and add evidence
+3.2.	Create feature files, write scenario based on test cases
+3.3.	Implement Scenarios and design test automation scripts
+3.4.	Record a bug reports if bugs are present
+3.5.	Create Pull Request and merge with master after approval
+4.	 Test reporting – create test report using Cucumber, perform code review.
+5.	 Test Closure – verify with QA Lead testing reached its goal before test cycle closure.
+

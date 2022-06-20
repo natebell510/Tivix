@@ -1,0 +1,16 @@
+1. If car rental pick up date and drop off date are the same, then the price is 0$;
+2. Spelling error "Germainy", should be "Germany";
+3. Pick up and drop off date can be before current date;
+4. Country and city does not match in order, should be "Germany, Berlin";
+5. Order is based on city, invalid order contains France as country and Berlin as a city;
+6. Year input does not have limitations and can be any year;
+7. Year can 3000
+8. Credit card input has only restrictions on length, but takes special characters
+
+
+
+
+
+
+
+        console.log('lubie placki!!!'); --- I love pancakes!!! too
