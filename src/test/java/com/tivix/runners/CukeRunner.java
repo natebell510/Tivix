@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
 
 
 )
-//check selenium Grid Hub for available instances to run
+//check selenium Grid Hub for available instances to run tests
 //to run Selenium/Cucumber - Binaries (Browsers should be installed) and annotations are used to run the test
 public class CukeRunner {
 }
